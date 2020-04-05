@@ -1,12 +1,11 @@
 <?php
 if($_POST){
 
-$city = $_POST['city'];
-$country = $_POST['country'];
-$email = $_POST['email'];
 $nameSurname = $_POST['nameSurname'];
+$email = $_POST['email'];
 $password = $_POST['password'];
-
+$country = $_POST['country'];
+$city = $_POST['city'];
 
 echo $email;
 }
